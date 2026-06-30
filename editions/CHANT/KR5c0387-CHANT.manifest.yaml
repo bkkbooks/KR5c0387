@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR5c0387/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR5c0387/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 老子甲本
+  identifiers:
+    krp: KR5c0387
+  tags:
+    tls-internal:
+    - swl
+    - tr-en
+    kr-categories: KR5c
+  source:
+    repository: tls-texts
+    path: data/tls/KR5c0387.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR5c0387_001-CHANT.yaml, hash: 'sha256:df4001a5bf8d93dabbe57c449d498ac839d9761c28b8cf6a782a9e52879933a6'}
+  - {seq: 2, filename: KR5c0387_002-CHANT.yaml, hash: 'sha256:9ca7e85b06acaa8f4d65ee3838068f6472ae878ef152c45d11c9623b6f308001'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0387_001-CHANT.markers.yaml, hash: 'sha256:a8d8ff45bbb2584064ed49530b19dca669bcfe4efeef1323866e7020f0302bb8'}
+  - {seq: 2, role: markers, filename: assets/KR5c0387_002-CHANT.markers.yaml, hash: 'sha256:11c31feb726771e0de9ca8d20c40d64f7fcc2632e7324b6e9c3f492e873dfd4f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0387_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3057
+  label: 馬王堆漢墓帛書老子甲本德經
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0387_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 2412
+  label: 馬王堆漢墓帛書老子甲本道經
+  type: section
+  level: 1
+hash: sha256:cf49243611026e462bbeaed4d6a645eeb813679ca177fbf853a37367a7c02b75
