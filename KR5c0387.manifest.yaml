@@ -20,11 +20,11 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR5c0387_001.yaml, hash: 'sha256:66e7773235dc014fbdc1a178d582ab3a0c2b5b4f2c45e171175289dd021b404d'}
-  - {seq: 2, filename: KR5c0387_002.yaml, hash: 'sha256:96659e2ff7a2ca52d1c0b21c18646be71838122da00e67364546b95991c51b2f'}
+  - {seq: 1, filename: KR5c0387_001.yaml, hash: 'sha256:df4001a5bf8d93dabbe57c449d498ac839d9761c28b8cf6a782a9e52879933a6'}
+  - {seq: 2, filename: KR5c0387_002.yaml, hash: 'sha256:9ca7e85b06acaa8f4d65ee3838068f6472ae878ef152c45d11c9623b6f308001'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR5c0387_001.markers.yaml, hash: 'sha256:91dc15f72eda9e3a0d994f32b0e70fb03cc825b4b33e084e01c3733b4666a8fc'}
-  - {seq: 2, role: markers, filename: assets/KR5c0387_002.markers.yaml, hash: 'sha256:2759784bb574e1fad29b096f44a614b57139c9259a1037658daf135d36be0b58'}
+  - {seq: 1, role: markers, filename: assets/KR5c0387_001.markers.yaml, hash: 'sha256:cad194696e42f8a5e1a03afb390957da7a42bc09c5c94c92e176f48b65e25551'}
+  - {seq: 2, role: markers, filename: assets/KR5c0387_002.markers.yaml, hash: 'sha256:19d1150e9c0554b45342dfb5174998bd9d02addafc2148a3f0d30f9722d860ce'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,7 +46,4 @@ table_of_contents:
   label: 馬王堆漢墓帛書老子甲本道經
   type: section
   level: 1
-hash: sha256:10534768d75cae34a4a3fcc789f7966f2d2e52c787d35c8a035f1ce086c25907
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:12cb6132e540b511da993991e0dfb41cb813ce641bfe60c4afd83e2c7293cd0a
